@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+    </data>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvLblYourSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_your_steps"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/tvValueYourSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="557"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvLblYourSteps"/>
+
+        <Button
+            android:id="@+id/btnPurchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_purchase"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</layout>

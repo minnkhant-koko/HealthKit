@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_id" translatable="false">102935625</string>
+    <string name="app_name">HealthKit</string>
+    <string name="lbl_huawei_login_canceled">Authorization was not granted.</string>
+    <string name="lbl_your_steps">Your total steps for today</string>
+    <string name="btn_purchase">Purchase Kits</string>
+</resources>
